@@ -1,0 +1,328 @@
+* {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+#NavBar {
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+}
+
+#searchbar {
+    height: 35px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border: 1px solid #ebebeb;
+   border-radius: 30px;
+   -webkit-border-radius: 30px;
+   -moz-border-radius: 30px;
+   -ms-border-radius: 30px;
+   -o-border-radius: 30px;
+   box-shadow: 0px 0px 10px 1px rgb(133, 128, 128);
+}
+
+#searchbar1 {
+    margin-right: 10px ;
+    padding: 3px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px solid #ebebeb;
+}
+#searchbar2 {
+    margin-right: 10px ;
+    padding: 3px;
+    padding-right: 10px;
+    border-right: 1px solid #ebebeb;
+}
+
+#searchbar3 {
+    margin-right: 10px ;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+
+#searchbar:hover {
+    height: 35px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border: 1px solid #ebebeb;
+   border-radius: 30px;
+   -webkit-border-radius: 30px;
+   -moz-border-radius: 30px;
+   -ms-border-radius: 30px;
+   -o-border-radius: 30px;
+   box-shadow: 0px 0px 10px 1px rgb(110, 104, 104);
+}
+
+ #searchbtn {
+    display: flex;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+   padding: 5px;
+ background-color: #ff385c;
+ border-radius: 50%;
+ -webkit-border-radius: 50%;
+ -moz-border-radius: 50%;
+ -ms-border-radius: 50%;
+ -o-border-radius: 50%;
+ border: none;
+}
+
+#searchbar3 p {
+    padding-right: 10px;
+    color: #afabab;
+}
+
+#login {
+    display: flex;
+    align-items: center;
+
+}
+
+#login p {
+    color: #afabab;
+}
+
+/* #login div p:hover {
+    display: flex;
+    justify-content: center;
+    color: #afabab;
+    background-color: #ebebeb;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+} */
+
+    
+#languagebtn {
+        display: flex;
+        justify-content: center;
+        width: 26px;
+        height: 26px;
+       padding: 5px;
+     background-color: transparent;
+     border-radius: 50%;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     -o-border-radius: 50%;
+     border: none;
+    }
+
+    #languagebtn:hover {
+        display: flex;
+        justify-content: center;
+        width: 26px;
+        height: 26px;
+       padding: 5px;
+     background-color: #ebebeb;
+     border-radius: 50%;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     -o-border-radius: 50%;
+     border: none;
+    }
+
+    #loginbtn {
+        display: flex;
+        justify-content: center;
+        width: 25px;
+        height: 25px;
+       padding: 5px;
+       background-color: transparent;
+     border: none;
+    }
+
+    #loginbtn2 {
+        display: flex;
+        justify-content: center;
+        width: 25px;
+        height: 25px;
+       padding: 5px;
+       background-color: transparent;
+     border: none;
+    }
+    
+    #btndiv {
+        display: flex;
+        align-items: center;
+        padding: 2px;
+        border: 1px solid #ebebeb;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        margin-left: 10px;
+}
+
+#btndiv:hover {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    border: 1px solid #ebebeb;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 10px 1px rgb(110, 104, 104);
+}
+
+#iconlist {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#iconlist li {
+    font-size: 12px;
+    text-align: center;
+    padding-right: 7px;
+    padding-bottom: 15px;
+}
+
+#iconlist li:hover {
+    font-size: 12px;
+    text-align: center;
+    padding-right: 7px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+}
+   
+#navfilter {
+    display: flex;
+    align-items: center;
+}
+
+.filterbtn {
+display: flex;
+align-items: center;
+margin-bottom: 22px;
+}
+.filterbtnicon {
+    padding: 0;
+    margin: 0;
+}
+
+.filterbtnp {
+    padding: 10px;
+    margin: 0;
+    background-color: #afabab;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* Cards section */
+
+.cardcontainer {
+    display: grid;
+    grid-template-columns: 270px 270px 270px 270px 270px;
+    grid-template-rows: 400px 400px 400px;
+    grid-gap: 10px;
+}
+
+
+
+.crad {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 400px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+
+.imagecard1 img {
+    padding: 0;
+    margin-top: 50px;
+    width: 250px;
+    height: 300px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.imagecard1{
+    /* padding-left:100px ; */
+    padding: 0;
+    width: 260px;
+}
+
+.favoriteimg img{
+    padding: 0;
+    position: absolute;
+    top: 240PX;
+    left: 250px 
+
+}
+
+.desc {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.rateof5 {
+    display: flex;
+    align-items: center;
+}
+.nameplace{
+    padding-left:25px;
+}
+.kilo{
+    padding-left:25px;
+
+}
+
+.date{
+    padding-left:25px;
+
+}
+.price{
+    padding-left:25px;
+
+}
+
+#showmap {
+    position: fixed;
+    padding: 15px;
+    top: 90%;
+    left: 50%;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+

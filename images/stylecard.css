@@ -1,0 +1,71 @@
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+.favorite {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 20px;
+    left: 275px;
+} 
+    
+    .card {
+
+        background-color: white;
+        width: 300px;
+        height: 450px;
+        border-radius: 20px;
+    }
+    
+    
+    .des {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .palcname{
+        font-weight: bolder;
+    }
+    
+    .bio {
+        padding-bottom: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    
+    .date {
+        padding-bottom: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+    
+    }
+    
+    .price {
+        font-weight: bolder;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+    
+    }
+    .stars{
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        /* width: 2px;
+        height: 2px; */
+    }
